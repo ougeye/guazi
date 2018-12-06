@@ -1,0 +1,373 @@
+@charset "utf-8";
+/*
+	主要的css文件
+*/
+#main_box .heard_desc{
+  width:100%;
+  height:585px;
+  position:relative;
+ background:url("http://c2.xinstatic.com/c/20181012/1926/5bc084d97a68a703842.jpg") no-repeat center/cover;
+}
+.clearFix::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#main_box .heard{
+  width:100%;
+  height:60px;
+  background-color:transparent;
+  position:fixed;
+  z-index:99;
+}
+#main_box .heard .bar{
+  line-height:60px;
+  vertical-align:middle;
+  position:absolute;
+  left:50%;
+  margin-left:-605px;
+ 
+}
+#main_box .heard .bar .left{
+  width:420px;
+  display:inline-block;
+  text-align:left;
+}
+
+#main_box .heard .bar .left a h2{
+  display:inline-block;
+  width:145px;
+  height:60px;
+  background:url("http://s4.xinstatic.com/static/newcar-www/widget/common/header/imgs/newyear-logo_d160ad8.png") no-repeat center;
+  float:left;
+}
+
+#main_box .heard .bar .left .cityDetail{
+  padding-left:40px;
+  position:relative; 
+}
+#main_box .heard .bar .left .location{
+  line-height:60px;
+  padding-right:24px;
+  position:relative; 
+}
+
+
+#main_box .heard .bar .left .location i{
+  content:"";
+  position:absolute;
+  top:50%;
+  right:0;
+  margin-top:-4px;
+  display:inline-block;
+  width:20px;
+  height:14px; 
+}
+#main_box .heard .bar .left .cityDetail:hover >.city{
+  display:block;
+}
+
+
+#main_box .heard .bar .left .city{
+  width:775px;
+  height:445px;
+  background-color:white;
+  position:absolute;
+  top:100%;
+  left:0px;
+  display:none;
+  z-index:1;
+}
+#main_box .heard .bar .left .city .city_search{
+  width:100%;
+  border-bottom:1px solid #cdcdcd;
+  text-align:center;
+}
+#main_box .heard .bar .left .city .city_search input{
+  line-height:30px; 
+  width:340px;
+  margin:6px auto;
+  padding-left:20px;
+  border:1px solid #cdcdcd;
+  border-radius:30px;
+}
+#main_box .heard .bar .left .city .arund_coner,#main_box .heard .bar .left .city .hot_city{
+  width:100%;
+  border-bottom:1px solid #cdcdcd;
+  text-align:left;
+  line-height:40px;
+  color:black;
+}
+.red_word{
+  color:red;
+}
+#main_box .heard .bar .left .city .arund_coner ul li,#main_box .heard .bar .left .city .hot_city ul li{
+ float:left;
+ margin-left:10px;
+}
+#main_box .heard .bar .left .city .hot_city ul li{
+ margin-right:8px;
+}
+#main_box .heard .bar .left .city .arund_coner ul .letter a{
+  letter-spacing:15px;
+}
+
+#main_box .heard .bar .left .city .fiexd{
+  overflow-y:scroll;
+  height:340px;
+}
+#main_box .heard .bar .left .city .city_detail{
+  width：100%;
+  color:black;
+  font-size:14px;
+}
+#main_box .heard .bar .left .city .city_detail .leter>li{
+  border-bottom:1px solid #cdcdcd;
+  line-height:40px;
+}
+#main_box .heard .bar .left .city .city_detail ul li div{
+  display:inline-block;
+  margin:0px 10px;
+  float:left;
+}
+#main_box .heard .bar .left .city .city_detail .leter ul{
+  display:inline-block;
+  width:700px;
+  float:left;
+}
+#main_box .heard .bar .left .city .city_detail .leter ul li{
+ display:inline-block;
+ margin-left:25px;
+}
+#main_box .heard .bar .right{
+  width:670px;
+  line-height:60px;
+  float:right;
+}
+#main_box .heard .bar .right ul li{
+  float:left;
+  margin-left:35px;
+}
+#main_box .heard .bar .right ul .new_car{
+  position:relative;
+}
+#main_box .heard .bar .right ul .new_car .new_car_icon{
+  display:inline-block;
+  width:40px;
+  height:18px;
+  background:url("http://s5.xinstatic.com/static/newcar-www/widget/common/header/imgs/newyear-newcar_47d2e69.png") no-repeat;
+  position:absolute;
+  top:8px;
+  left:8px;
+} 
+#main_box .heard .bar .right .loginOrRign{
+  margin-left:15px;
+}
+#main_box .cover{
+  position:fixed;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.5);
+  z-index:9999;
+  display:none;
+}
+
+.commenWidth{
+  width:1210px;
+  margin:0 auto; 
+}
+
+ #main_box .heard_desc .title_search {
+  display:inline-block;
+  width:910px;
+  height:50px;
+  position:absolute;
+  left:50%;
+  bottom:240px;
+  margin-left:-443px;
+}
+#main_box .heard_desc .title_search input{
+  float:left;
+  font-size:18px;
+  color:white;
+  border:1px solid white;
+  width:150px;
+  line-height:50px;
+  text-align:center;
+}
+#main_box .heard_desc .title_search #carfont{
+  width:545px;
+  height:50px;
+  margin-left:13px;
+  padding-left:10px;
+  background-color:white;
+  text-align:left;
+}
+#main_box .heard_desc .title_search #carSearch{
+  background-color:rgba(255,90,55,1);
+  margin-right:30px;
+}
+#main_box .heard_desc .title_search #carSell{
+  background-color:rgba(255,140,0,1);
+}
+#main_box .heard_desc .title_bottom {
+	position:absolute;
+	bottom:180px;
+	left:50%;
+	margin-left:-605px;
+}
+#main_box .heard_desc .title_search .show_carNum{
+	width:220px;
+	line-height:30px;
+	font-size:24px;
+	color:white;
+	margin:0 auto;
+
+}
+/************************************************************************ heard_end */
+
+/************************************************************************* Brand start */
+#showBrand{
+  margin-top:-150px;
+  position:relative;
+  z-index:2;
+  background-color:white;
+}
+
+#showBrand .brand{
+  width:100%;
+  height:66px;
+  text-align:center;
+  font-size:18px;
+  float:left;
+}
+#showBrand .brand .brand_title i{
+  display:inline-block;
+  font-size:20px;
+}
+#showBrand .brand .brand_title{
+  width:589px;
+  float:left;
+  line-height:65px;
+  background-color:white;
+  position:relative;
+  z-index:2;
+}
+#showBrand .brand .brand_title:hover span,#showBrand  .icon_detail:hover +.brand .brand_title span i{
+	color:red;
+}
+#showBrand .brand .brand_title:hover  span i{
+color:red;
+transform:rotateZ(-180deg);
+}
+
+#showBrand .brand .carPrice_brand_title{
+  width:301px;
+  line-height:66px;
+  float:left;
+  text-align:center;
+  font-size:18px;
+  margin-left:-1px;
+  background-color:white;
+}
+#showBrand .brand .brand_sty_brand_title{
+ width:303px;
+ line-height:66px;
+ float:left;
+ text-align:center;
+ font-size:18px;
+ margin-left:-1px;
+}
+
+/********************************************************** icon_detail */
+
+ #showBrand  .icon_detail{
+  position:absolute;
+  top:68px;
+  border:2px solid red;
+  height:555px;
+  background-color:white;
+  text-align:left;
+  margin-top:-2px;
+  display:none;
+ 
+  
+}
+#showBrand  .icon_detail .MDbrand_1{
+  width:33.3%;
+  vertical-align:top;
+  float:left;
+}
+#showBrand  .icon_detail .MDbrand_1 div{
+	font-size: 14px;
+	display: block;
+	color: #ff5a37;
+	width: 20px;
+	line-height: 24px;
+	margin-left:10px;
+	float: left;
+}
+#showBrand  .icon_detail .MDbrand_1 ul{
+   float: left;
+   width:368px;
+   line-height:25px;
+   font-size:14px;
+   display: block;
+   margin-top:-1px;
+}
+#showBrand  .icon_detail .MDbrand_1  ul li{
+   float: left;
+   margin:1px 10px;
+}
+/********************************************************** icon_detail end */
+
+
+/********************************************************** new_box  start*/
+#showBrand .new_box{
+   height:220px;
+   text-align:center;
+   position:absolute;
+   top:66px;
+   background-color:white;
+   z-index:2;
+   display:block;
+ }
+ #showBrand .new_box .brand_icon{
+	  width:590px;
+	  float:left;
+ }
+
+#showBrand .new_box .brand_icon table tr td,#showBrand .new_box .brand_icon table tr td img{
+  width:50px;
+  height:44px;
+
+}
+#showBrand .new_box .brand_icon table tr td{
+  padding:25px;
+  font-size:16px;
+}
+
+#showBrand .new_box .brand_dec,#showBrand .new_box .brand_sty_car{
+ height:242px;
+ width:308px;
+ float:left;
+}
+#showBrand .new_box .brand_dec table tr td{
+  line-height:75px;
+  padding-left:25px;
+  font-size:16px;
+}
+
+#showBrand .new_box .brand_sty_car table tr td img{
+  width:90px;
+  height:50px;
+
+}
+#showBrand .new_box .brand_sty_car table tr td{
+  padding:20px 5px;
+  font-size:16px;
+}
+
+/********************************************************** new_box  end*/
+/************************************************************************* Brand end */
+
